@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap');
+
+@import "nav";
+@import "water";
+@import "container1";
+@import "container2";
+@import "container3";
+@import "water2";
+@import "footer";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: lato;
+}
+
+body {
+  background: white;
+  max-width: none;
+  margin: 0 auto;
+  flex-wrap: wrap;
+
+  @media screen and (max-width: 768px) {
+    .column {
+        flex: 1;
+        width: 100%;
+    }
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

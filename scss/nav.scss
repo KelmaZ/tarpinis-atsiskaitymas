@@ -1,0 +1,28 @@
+nav {
+    background: white;
+    line-height: 50px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding-left: 150px;
+    word-spacing: 1400px;
+    z-index: 999;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  span {
+    background: #0d6efd;
+    display: inline;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    line-height: 60px;
+    border-radius: 5px 5px;
+    margin: 100px;
+  }
